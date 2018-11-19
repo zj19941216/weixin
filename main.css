@@ -1,0 +1,49 @@
+/*é€šç”¨è®¾ç½®*/
+@media screen
+and (min-width:320px)
+and (max-width:349px) {
+    html{font-size:12px;}
+}
+@media screen
+and (min-width:350px)
+and (max-width:399px) {
+    html{font-size:13px;}
+}
+@media screen
+and (min-width:400px)
+and (max-width:499px) {
+    html{font-size:14px;}
+}
+@media screen
+and (min-width:500px)
+and (max-width:599px) {
+    html{font-size:16px;}
+}
+
+*{margin:0;padding:0;border:0}
+
+html,body,section,ul{width: 100%; height: 100%; text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family:"æœ€åƒç´ EX2","Microsoft YaHei",Arial,Roboto,â€Droid Sansâ€,â€Helvetica Neueâ€,â€Droid Sans Fallbackâ€,â€Heiti SCâ€,sans-self,Tahoma;
+    overflow: auto;
+    overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
+}
+html{font-size: 62.5%}
+body{font-size: 1.4rem;}
+img{border: 0; width: 100%; height: auto;}
+section{position:relative; text-align: center; overflow: hidden; display: none; width: 100%; height: 100%; background-size: 100% 100%; background-repeat: no-repeat; }
+div{width: 100%; background-size: 100% 100%; background-repeat: no-repeat;}
+input, textarea{font-family: "æœ€åƒç´ EX2","Microsoft YaHei",Arial,Roboto,â€Droid Sansâ€,â€Helvetica Neueâ€,â€Droid Sans Fallbackâ€,â€Heiti SCâ€,sans-self,Tahoma;}
+
+.circle { border-radius: 50% 50%;}
+
+/*æç¤ºé¡µ*/
+.turning{ background-color: #000000; position: absolute; left: 0; top:0; width: 100%; height: 100%; z-index: 9999; }
+.turning .img{ position: relative; left: 30%; top: 10%; width: 40%; height: 90%; background-image: url("../images/turning.png"); background-repeat: no-repeat; background-size: contain;}
+
+@import "keyframe.css";
